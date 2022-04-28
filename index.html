@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Emma Janani">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/fav_index-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/fav_index-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Is it Hot or Cold Outside?</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Is it Hot or Cold Outside?</h1>
+		<table>
+			<tr>
+				<td>
+					<h3>Enter the degrees (in Celsius)</h3>
+					<form action="javascript:displayMessage()">						
+						<label for="temperature">Number (1-6):</label>
+						<input type="number" step="0.01" min="1" id="temperature" placeholder="Degrees in Celsius"><br><br>
+						<input type="submit" value="Display Message">
+					</form>
+				</td>
+			</tr>
+		</table>
+    <br>
+    <!-- Create a space where the user information will be displayed -->
+		<div id="message">
+		</div>
+    <br>
+		<img src="./images/celsius.jpg" alt="Celsius" style="width:30%">
+  </body>
+</html>

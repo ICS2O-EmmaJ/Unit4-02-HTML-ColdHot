@@ -1,0 +1,32 @@
+/* Created by: Emma Janani
+* Created on: Mar 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit4-02-HTML-ColdHot
+*/
+
+body {
+	background-color: #bed9ab;
+}
+
+h1 {
+	background-color: #8ab86a;
+	color: hsl(0, 0%, 0%);
+	padding: 40px;
+	text-align: center;
+}
+
+p {
+	background-color: #f4dc86;
+}
+
+div {
+	
+  font-weight: bold;
+  color: #050505;
+  margin: 5px;
+}
+
+#display-results{
+  background-color: #449c5a;
+	font-size: 20px;
+}
